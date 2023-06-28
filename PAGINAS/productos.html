@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/estilosproductos.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="/imagenes/logo.png">
+    <title>Productos</title>
+</head>
+<body>
+
+    <div class="encabezado-img">
+		
+	</div>
+
+    <section class="contenido">
+        <div class="mostrador" id="mostrador">
+            <div class="fila">
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="/imagenes/m1.jpg" alt="">
+                    </div>
+                    <p class="descripcion">CHAQUETA EN PLUMAS NIKE</p>
+                    <span class="precio">$ 50.000 cop</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="/imagenes/m2.jpg" alt="">
+                    </div>
+                    <p class="descripcion">CHAQUETA TOMMY HILFIGER</p>
+                    <span class="precio">$ 80.000 cop</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="/imagenes/m3.jpg" alt="">
+                    </div>
+                    <p class="descripcion">BUSO IMPERMEABLE AMERICANO</p>
+                    <span class="precio">$ 45.000 cop</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="/imagenes/m4.jpg" alt="">
+                    </div>
+                    <p class="descripcion">CHAQUETA ADIDAS BIGLOGO</p>
+                    <span class="precio">$ 60.000 cop</span>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="/imagenes/m5.jpg" alt="">
+                    </div>
+                    <p class="descripcion">CHALECO TIMBERLAND</p>
+                    <span class="precio">$ 65.000 cop</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="/imagenes/m6.jpg" alt="">
+                    </div>
+                    <p class="descripcion">CHAQUETA DE INVIERNO COLUMBIA</p>
+                    <span class="precio">$ 70.000 cop</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="/imagenes/m7.jpg" alt="">
+                    </div>
+                    <p class="descripcion">CHAQUETA NIKE BIGLOGO</p>
+                    <span class="precio">$ 60.000 cop</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="/imagenes/m8.jpg" alt="">
+                    </div>
+                    <p class="descripcion">NORTH FACE SUMMIT SERIES</p>
+                    <span class="precio">$ 85.000 cop</span>
+                </div>
+                
+            </div> 
+        </div>
+
+        
+        <!-- CONTENEDOR DEL ITEM SELECCIONADO -->
+        <div class="seleccion" id="seleccion">
+            <div class="cerrar" onclick="cerrar()">
+                &#x2715
+            </div>
+            <div class="info">
+                <img src="" alt="" id="img">
+                <h2 id="modelo">DAIT</h2>
+           
+                <p id="descripcion">Nike vintage</p>
+
+
+                <span class="precio" id="precio">$ 2000000</span>
+
+                <div class="fila">
+                    <div class="size">
+
+                    </div>
+                    <button>AGREGAR AL CARRITO</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contenido">
+        <div class="mostrador" id="mostrador">
+            <div class="fila">
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="/imagenes/m9.jpg" alt="">
+                    </div>
+                    <p class="descripcion">CHAQUETA NAUTICA</p>
+                    <span class="precio">$ 85.000 cop</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="/imagenes/m10.jpg" alt="">
+                    </div>
+                    <p class="descripcion">CHAQUETA COLUMBIA</p>
+                    <span class="precio">$ 90.000 cop</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="/imagenes/m11.jpg" alt="">
+                    </div>
+                    <p class="descripcion">CHAQUETA INVIERNO NIKE</p>
+                    <span class="precio">$ 50.000 cop</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="/imagenes/m12.jpg" alt="">
+                    </div>
+                    <p class="descripcion">CHAQUETA COLUMBIA VAMOOSE</p>
+                    <span class="precio">$ 90.000 cop</span>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="/imagenes/m13.jpg" alt="">
+                    </div>
+                    <p class="descripcion">BUSO CHAMPION</p>
+                    <span class="precio">$ 45.000 cop</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="/imagenes/m14.jpg" alt="">
+                    </div>
+                    <p class="descripcion">CHAQUETA NIKE T90</p>
+                    <span class="precio">$ 50.000 cop</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="/imagenes/m15.jpg" alt="">
+                    </div>
+                    <p class="descripcion">CHAQUETA OUTDOOR</p>
+                    <span class="precio">$ 55.000 cop</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <a href="#comienzo"></a>
+                        <img src="/imagenes/m16.jpg" alt="">
+                    </div>
+                    <p class="descripcion">CHAQUETA PUMA</p>
+                    <span class="precio">$ 40.000 cop</span>
+                </div>
+                
+            </div> 
+        </div>
+
+        
+        <!-- CONTENEDOR DEL ITEM SELECCIONADO -->
+        <div class="seleccion" id="seleccion">
+            <div class="cerrar" onclick="cerrar()">
+                &#x2715
+            </div>
+            <div class="info">
+                <img src="img/1.png" alt="" id="img">
+                <h2 id="modelo">NIKE MODEL 1</h2>
+                <p id="descripcion">Descripción Modelo 1</p>
+
+                <span class="precio" id="precio">$ 130</span>
+
+                <div class="fila">
+                    <div class="size">
+
+                    </div>
+                    <button>AGREGAR AL CARRITO</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="page-section1 bg-dark text-white">
+        <div class="container px-4 px-lg-5 text-center">
+            
+        </div>
+    </section>
+
+
+    <footer id="footer">
+        <div class="contenedor footer-content">
+                <div class="social-media">
+                    <a href="/publiretro.html" class="social-media-icon">
+                      <i class='bx bx-chevron-left'></i>
+                    </a>
+                </div>
+        </div>
+      </footer>
+
+    
+
+    <script src="/js/mercado.js"></script>
+</body>
+</html>
